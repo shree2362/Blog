@@ -23,7 +23,7 @@ guestsOnly();
         <form action="login.php" method="post">
             <h2 class="form-title">Login</h2>
 
-            <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
+            <?php //include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
             <div>
                 <label>Username</label>
@@ -39,9 +39,6 @@ guestsOnly();
             </div>
             <p>Register --> <a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></p>
             <div style="font-size:0.8em; text-align:center;">
-                <a href="<?php echo BASE_URL . '/forgot_password.php'?>">
-                    Forgot your Password?
-                </a>
             </div>
         </form>
     </div>

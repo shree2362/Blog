@@ -24,10 +24,6 @@
                 <ul>
                     <a href="/blog/events.php">
                         <li>Events</li>
-                    
-                    <a href="/blog/assets/images/">
-                        <li>Gallery</li>
-                    </a>
                     <a href="#">
                         <li>Terms and Conditions</li>
                     </a>

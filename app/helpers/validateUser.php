@@ -6,9 +6,6 @@ function validateUser($user)
     if(empty($user['username'])){
         array_push($errors, 'Username is Required');
     }
-    if(!filter_var($user['email'], FILTER_VALIDATE_EMAIL)){
-        array_push($errors, 'Email is NOT valid');
-    }
     if(empty($user['email'])){
         array_push($errors, 'Email is Required');
     }

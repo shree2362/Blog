@@ -6,9 +6,9 @@ $postsTitle = 'Recent Posts';
 if (isset($_GET['t_id'])) {
     $posts = getPostsByTopicId($_GET['t_id']);
     $postsTitle = "You searched for posts under '" . $_GET['name'] . "'";
-} else if (isset($_POST['search-term'])) {
-    $postsTitle = "You searched for '" . $_POST['search-term'] . "'";
-    $posts = searchPosts($_POST['search-term']);
+// } else if (isset($_POST['search-term'])) {
+//     $postsTitle = "You searched for '" . $_POST['search-term'] . "'";
+//     $posts = searchPosts($_POST['search-term']);
 } else {
     $posts = getPublishedPosts();
 }
@@ -71,7 +71,7 @@ if (isset($_GET['t_id'])) {
                 $i = 0;
                 foreach ($posts as $post) : ?>
                 
-                <?php if ($i++ > 3) break; ?>
+                <?php if ($i++ > 5) break; ?>
                     <div class="post clearfix">
                         <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" class="post-image" alt="">
                         <div class="post-preview">
