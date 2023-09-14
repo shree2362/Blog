@@ -4,8 +4,9 @@ A Blog Web Application
 The main doesnot allow you run the application locally, It requires authorization. Shift to the other branch i.e "Blog-no-verify"
 
 After shifting this branch. Follow the instractions below.
+
 **Tools require**
-Xammp
+> - Xammp
 
 **Langauge used to Create this application**
 > - HTML 
